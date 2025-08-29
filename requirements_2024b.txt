@@ -1,0 +1,85 @@
+# Core dependencies for DriveBy cluster management
+flask
+requests
+psutil
+#netifaces
+python-nmap
+scapy
+watchdog
+cryptography
+
+# 2024 Privacy Protection Dependencies
+flask-socketio
+python-socketio
+numpy
+scipy
+scikit-learn
+tensorflow
+torch
+transformers
+
+# Advanced Cryptography (Post-Quantum)
+pycryptodome
+pyopenssl
+cryptography
+pynacl
+
+# Network and Privacy Tools
+pysocks
+stem
+dnspython
+python-whois
+geoip2
+maxminddb
+
+# Machine Learning Evasion
+adversarial-robustness-toolbox
+foolbox
+cleverhans
+
+# Behavioral Analysis
+pyautogui
+pynput
+keyboard
+mouse
+
+# Mobile Dashboard Dependencies
+flask-cors
+flask-jwt-extended
+flask-limiter
+flask-caching
+
+# Optional dependencies for enhanced functionality
+colorama
+rich
+click
+tqdm
+python-dotenv
+
+# Zero Trust Security
+pyotp
+qrcode
+pillow
+
+# Advanced Network Analysis
+pyshark
+netaddr
+ipaddress
+
+# Quantum-Resistant Cryptography
+liboqs-python
+pqcrypto
+
+# AI/ML Model Protection
+differential-privacy
+opacus
+
+# Steganography and Obfuscation
+stegano
+pillow
+opencv-python
+
+# Performance and Monitoring
+memory-profiler
+py-spy
+psutil

